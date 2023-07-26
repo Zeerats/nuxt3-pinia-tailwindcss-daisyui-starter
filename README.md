@@ -18,26 +18,26 @@ First, navigate to the main page of the repository. Under the repository name, c
 
 Open Terminal (or Terminal in WS2), navigate to the location where you would like to clone the repository and run:
 
-CODE
+```
 git clone <repository-url>
 cd <repository-folder>
-CODE
+```
 
 ### Install Dependencies
 
 After cloning the repository, navigate to the root directory of the project in your terminal and run the following command to install necessary dependencies:
 
-CODE
+```
 npm install
-CODE
+```
 
 ### Run the Application
 
 In order to start the server and run the application in a development environment, execute:
 
-CODE
+```
 npm run dev
-CODE
+```
 
 The server will start, and you can access the application in your web browser at `http://localhost:3000`.
 
@@ -49,10 +49,10 @@ This repository is designed to be a starting point for your Nuxt 3 applications.
 
 The repository is structured as follows:
 
-- CODE src/components CODE: This directory contains all the Vue components that are used in the application.
-- CODE src/layouts CODE: This directory contains layout components, which dictate the structure of the page where other components will be slotted in.
-- CODE src/pages CODE: This directory contains the page components.
-- CODE src/store CODE: This directory contains the Pinia store.
+- ``` src/components ```: This directory contains all the Vue components that are used in the application.
+- ``` src/layouts ```: This directory contains layout components, which dictate the structure of the page where other components will be slotted in.
+- ``` src/pages ```: This directory contains the page components.
+- ``` src/store ```: This directory contains the Pinia store.
 
 ### Styling
 
