@@ -1,6 +1,6 @@
 # Nuxt 3 Starter (with Tailwind CSS, Pinia, and DaisyUI)
 
-Welcome to the Nuxt 3 Starter! This repository was built with a few key technologies in mind to make your development experience smoother and more efficient. These technologies include Nuxt 3, Tailwind CSS, Pinia, and DaisyUI.
+Welcome to my Nuxt 3 Starter. I've created this one to make starting a beautiful Nuxt 3 project easier. It includes Tailwind CSS, Pinia, and DaisyUI.
 
 ## Getting Started
 
@@ -53,12 +53,12 @@ The repository is structured as follows:
 - ``` /layouts ```: This directory contains layout components, which dictate the structure of the page where other components will be slotted in.
 - ``` /store ```: This directory contains the Pinia store.
 - ``` /assets ```: contains uncompiled assets such as images, fonts, etc. As well as the css file for global styles.
+  
+For more information on the Nuxt 3 directory structure, refer to the [Nuxt 3 Documentation](https://v3.nuxtjs.org/docs/directory-structure/nuxt).
 
 ### Styling
 
-The project uses Tailwind CSS for styling and DaisyUI for additional UI components.
-[TailwindCSS](https://tailwindcss.com/)
-[DaisyUI](https://daisyui.com/)
+The project uses [TailwindCSS](https://tailwindcss.com/) for styling and [DaisyUI](https://daisyui.com/) for additional UI components.
 
 ### State Management
 
