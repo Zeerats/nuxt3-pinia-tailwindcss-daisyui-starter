@@ -1,4 +1,4 @@
-# Nuxt 3 Starter
+# Nuxt 3 Starter (with Tailwind CSS, Pinia, and DaisyUI)
 
 Welcome to the Nuxt 3 Starter! This repository was built with a few key technologies in mind to make your development experience smoother and more efficient. These technologies include Nuxt 3, Tailwind CSS, Pinia, and DaisyUI.
 
@@ -8,9 +8,9 @@ Welcome to the Nuxt 3 Starter! This repository was built with a few key technolo
 
 Ensure you have the following installed on your local development machine:
 
-- Node.js and npm
-- A code editor such as VSCode
-- Git
+- Node.js and npm. More info [here](https://nodejs.org/en/download/).
+- A code editor such as VSCode. You can download VSCode [here](https://code.visualstudio.com/download).
+- Git. More info [here](https://git-scm.com/downloads).
 
 ### Clone the repository
 
@@ -49,18 +49,21 @@ This repository is designed to be a starting point for your Nuxt 3 applications.
 
 The repository is structured as follows:
 
-- ``` src/components ```: This directory contains all the Vue components that are used in the application.
-- ``` src/layouts ```: This directory contains layout components, which dictate the structure of the page where other components will be slotted in.
-- ``` src/pages ```: This directory contains the page components.
-- ``` src/store ```: This directory contains the Pinia store.
+- ``` /pages ```: contains the pages of the application. Refer to the [Nuxt 3 Documentation](https://v3.nuxtjs.org/docs/get-started/routing) for more information on how to create pages.
+- ``` /layouts ```: This directory contains layout components, which dictate the structure of the page where other components will be slotted in.
+- ``` /store ```: This directory contains the Pinia store.
+- ``` /assets ```: contains uncompiled assets such as images, fonts, etc. As well as the css file for global styles.
 
 ### Styling
 
-The project uses Tailwind CSS for styling and DaisyUI for additional UI components. 
+The project uses Tailwind CSS for styling and DaisyUI for additional UI components.
+[TailwindCSS](https://tailwindcss.com/)
+[DaisyUI](https://daisyui.com/)
 
 ### State Management
 
 Pinia is used for state management in the project. It is a simpler and more straightforward way to manage state in Vue.js and Nuxt.js applications.
+[Pinia](https://pinia.vuejs.org/)
 
 ## Contributing
 
@@ -70,5 +73,25 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+MIT License
+
+Copyright (c) 2023 @Zeerats
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
